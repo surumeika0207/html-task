@@ -1,0 +1,16 @@
+@charset "utf-8";
+li{
+    background-color: blueviolet;
+}
+img{
+    width:  100%;
+    width: 300px;
+    height: 300px;
+}
+.text-brown{
+    color: aquamarine;
+}
+span{
+    border: 6px dotted rgb(89, 47, 255);
+}
+
