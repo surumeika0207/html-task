@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="desmeta name="viewport content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="register-Style.css">
+    <title>入力フォーム</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+            <p>必要事項を入力の上、送信ボタンを押してください。</p>
+        <table>
+          <tr>
+            <th>ID <span class="seven">必須</span><span> （メールアドレス）</span></th>
+            <td><input type="email" name="user_email" size="30"  placeholder="例: xxx@morijyobi.ac.jp.com" required><br>
+            </td>
+          </tr>
+          <tr>
+         <div class="surumeika">
+            <th>パスワード <span class="seven">必須</span><span>（英数字8文字以上）</span></th> <td>
+             <input type="password" name="user_pw" size="30" minlength="8" required>
+             <label><input type="checkbox" name="password">パスワードを表示する</label><br> </td>
+        </div>
+     </tr>
+     <tr>
+         <th>氏名 <span class="seven">必須</span></th>
+         <td>
+            <label>姓 : </label><input type="text" name="user_name"  placeholder="例 : するめ" required>
+            <label>名 : </label><input type="text" name="user_name" placeholder="例 : いか" required>
+         </td>
+     </tr>
+     <tr>
+         <th>住所</th>
+         <td>
+             〒<input type="text" name="user_adresnumber" size="8"><br>
+             <input type="text" name="user_adres"  placeholder="例 : 住所" size="30"><br>
+             <input type="text" name="user_building"  placeholder="例 : 建物" size="30">
+         </td>
+     </tr>
+     <tr>
+         <th>電話番号 <span class="seven">必須</span><span>（ハイフンなし）</span></th>
+         <td> <input type="tell" name="user_tell" required></td>
+     </tr>
+     <div class="surumeika">
+     <tr>
+         <th>学科・学年 <span class="seven">必須</span></th>
+         <td>
+             学科
+             <select name="Department" required>
+                 <option value="">学科を選択してください</option>
+                 <option value="情報システム科">情報システム科</option>
+                 <option value="高度情報工学科">総合システム科</option>
+                 <option value="総合システム科">高度情報科</option>
+             </select>
+            </div>
+             <br>
+             学年
+             <select name="Grade" required>
+                 <option value="">学年を選択してください</option>
+                 <option value="1年">1年</option>
+                 <option value="2年">2年</option>
+                 <option value="3年">3年</option>
+                 <option value="4年">4年</option>
+                 </select>
+         </td>
+     </tr>
+     <tr>
+         <th>お得な情報・クーポン <span class="seven">必須</span></th>
+         <td>
+             <label><input type="radio" name="receive" value="0" required>受け取る</label>
+             <label><input type="radio" name="notreceive" value="1" required>受け取らない</label>
+         </td>
+     </tr>
+     <tr>
+         <th>ご意見をお聞かせください。<span>（200文字以内で記入してください。）</span></th>
+         <td><textarea name="multiplr" cols="50" rows="10" maxlength="200"></textarea></td>
+      </tr></table>
+    </table>
+    <button type="reset">入力内容をクリアする</button>
+    <button type="submit">送信</button>
+    </form>
+</body>
+</html>
