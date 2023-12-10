@@ -1,0 +1,51 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+
+.Q {
+    list-style: "Q";
+    background-color: rgb(183, 187, 185);
+}
+.A {
+    list-style: "A";
+    border: 2px solid #5C2FFF; 
+    text-align: left; 
+    flex: 1; 
+    width: auto;
+    background-color: rgb(79, 139, 147);
+}
+body{
+    background-color: rgb(162, 226, 43)26, 43;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #555;
+}
+
