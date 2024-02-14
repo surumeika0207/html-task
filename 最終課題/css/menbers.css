@@ -1,0 +1,137 @@
+html{
+    background-color: #cebebe46;
+}
+.home {
+    background-color: #fff;
+    margin: 0 auto; 
+    width: 88%;
+
+}
+.menuarea{
+    margin-bottom: 0;
+}
+.menuarea img{
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    width: 135px;   
+    height: auto;
+}
+    .menuarea ul{
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        font-size: 120%;
+        padding-left: 120px;
+        background-color:black;
+        height: 80px;
+        
+    }
+    .menuarea li:hover {
+        opacity: 0.7; 
+        transition: opacity 0.3s ease; 
+    }
+    
+    .menuarea li {
+        flex: 1;
+        margin-right: 10px; 
+        display: flex;
+    }
+    
+    .menuarea li:last-child {
+        margin-right: 0; 
+    }
+    
+    .menuarea a {
+        text-decoration: none;
+        color:#fff; /
+    }
+    h2{
+        margin-top: 0;
+        text-align: center;
+        font-size: 50px;
+    }
+    .read {
+    margin: 20px; 
+    text-align: center;
+}
+
+.read img {
+    width: 80%; 
+    height: auto;
+}
+
+.logo img {
+    width: 400px; 
+    height: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+span {
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+.social-icon {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.PROFILE ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0px 30px 0px 0px;
+}
+ul img{
+    width: 245px;
+    height: 300px;
+}
+
+.PROFILE li {
+    position: relative;
+    width: calc(33.333% - 100px); 
+    margin:0px 10px 0px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.label {
+    position: absolute;
+    background-color: rgba(19, 17, 17, 0.785);
+    color: #fff;
+    bottom: 2.5%;
+    left: 0%;
+    width: 245px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.label .caption {
+    font-size: 10px;
+    margin-top: 5px; 
+}

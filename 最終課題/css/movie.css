@@ -1,0 +1,104 @@
+html { scroll-behavior: smooth; }
+    body {
+        background: url('../img/newjeans7.jpg') no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .menuarea {
+        margin-bottom: 0;
+    }
+
+    .menuarea img {
+        text-align: left;
+        margin: 0px 0px 0px 0px;
+        width: 135px;
+        height: auto;
+    }   
+
+    .menuarea ul {
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        font-size: 120%;
+        padding-left: 120px;
+        background-color: black;
+        height: 80px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .menuarea li:hover {
+        opacity: 0.7;
+        transition: opacity 0.3s ease;
+    }
+
+    .menuarea li {
+        flex: 1;
+        margin-right: 10px;
+        display: flex;
+    }
+
+    .menuarea li:last-child {
+        margin-right: 0;
+    }
+
+    .menuarea a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+
+    .sidebar {
+        text-align: center;
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        background-color: rgba(17, 17, 17, 0.6);
+        padding-top: 20px;
+        right: 100px;
+    }
+    #omg {
+        margin-top: 0;
+        padding: 0;
+        margin: 0px 0px 0px 150px;
+    }
+    
+    #ditto,
+    #asap,
+    #supershy,
+    #cookie,
+    #attention,
+    #newjeans,
+    #hypeboy,
+    #eta,
+    #coolwithyou {
+        margin: 150px; 
+    }
+    
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sidebar li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #818181;
+        font-size: 16px;
+        display: block;
+        padding: 10px;
+        transition: color 0.3s;
+    }
+
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }

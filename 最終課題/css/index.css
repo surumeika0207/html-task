@@ -1,0 +1,136 @@
+
+        ul img{
+            text-align: left;
+            margin: 0px 0px 0px 0px;
+            width: 150px;
+            height: auto;
+        }
+            .menuarea ul{
+                list-style: none;
+                margin: 0px 0px 0px 0px;
+                display: flex;
+                align-items: center;
+                font-size: 120%;
+                padding-left: 120px;
+                background-color:black;
+                height: 80px;
+                
+            }
+            .menuarea li:hover {
+                opacity: 0.7; 
+                transition: opacity 0.3s ease; 
+            }
+            
+            .menuarea li {
+                flex: 1;
+                margin-right: 10px; 
+                display: flex;
+            }
+            
+            .menuarea li:last-child {
+                margin-right: 0; 
+            }
+            
+            .menuarea a {
+                text-decoration: none;
+                color:#fff; /
+            }
+        
+        .home {
+            width: 100%;
+
+        }
+
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        /*footer img{
+            text-align: left;
+            width: 60px;
+        }
+        footer li{
+            background-color:black;
+            color: #fff;
+            text-align: right;
+            height: 0px;
+            padding: 20px 0px 0px 0px;
+            margin: 0;
+            width: 100%;
+        }*/
+        
+        html{
+            background:#fff;
+        }  
+        .btn a {
+            position: absolute;
+            top: 500px;
+            left: 70%;
+            background-color: rgba(255,255,255,0.6);
+            width: 150px;  
+            height: 80px;
+            margin: 20px 0px 20px 0px;
+            display: flex;
+            align-items: center;
+        }
+        .btn a:hover {
+            opacity: 0.5; 
+            transition: opacity 0.3s ease; 
+        }
+        .btn img{
+            width: 100px;
+            top: auto;
+            display: block; 
+            margin: 0 auto;
+        }
+
+
+        footer ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+.social-icon {
+    width: 50px;
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+        
+           
+        footer ul li {
+            margin-right: 20px; 
+        }
+         p{
+            color: black;
+            text-align: center;
+        }
+        .kousiki {
+            position: absolute;
+            background-color: rgba(19, 17, 17, 0.785);
+            color: #fff;
+            bottom: 2.5%;
+            top: 95.5%;
+            left: 70%;
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+        }
+        .kousiki:hover {
+            opacity: 0.5; 
+            transition: opacity 0.3s ease; 
+        }
+        
+        
+        
+        
+
+
+
